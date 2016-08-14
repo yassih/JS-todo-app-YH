@@ -1,0 +1,77 @@
+body{
+font-family: verdana;
+}
+.main{
+
+  border: 3px #95d2d3 solid;
+  border-radius: 50px;
+  width: 400px;
+  margin: 0 auto;
+  min-height: 300px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+h2{
+text-align: center;
+color: #56beba;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.remove{
+  padding: 5px;
+  /*border: 1px grey solid;*/
+  color: red;
+  font-size: 10pt;
+}
+#newItem{
+    border: 1px solid #95d2d3;
+    border-radius: 5px;
+    /*box-shadow: 0 0 5px 3px #95d2d3;*/
+    color: #666;
+    outline: none;
+    height:23px;
+    width: 175px;
+  }
+#add{
+    border: 1px solid #95d2d3;
+    height:27px;
+    width:50px;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+    background-color: #fff;
+    color: #95d2d3;
+}
+#add:hover{
+  background-color: #95d2d3;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+#deleteList{
+  border: 1px solid red;
+  height:27px;
+  width:100px;
+  border-radius: 5px;
+  transition: all ease 0.5s;
+  background-color: #fff;
+  color: red;
+
+}
+#deleteList:hover{
+  background-color: red;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+.listOne li {
+  /*background-color: #e1f2f9;*/
+  height: 50px;
+  margin: 0;
+  margin-bottom: 10px;
+  width: 300px;
+  overflow-wrap: break-word;
+}
+ul li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
